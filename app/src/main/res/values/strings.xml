@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Drizzzle</string>
+    <string name="weather_today">Weather Today</string>
+    <string name="next_5_days">Next 5 Days</string>
+    <string name="date">Date</string>
+    <string name="night">Night</string>
+    <string name="day">Day</string>
+</resources>

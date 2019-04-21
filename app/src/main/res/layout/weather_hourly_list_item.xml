@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/weather_hourly_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="23\u00B0c" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/icon_weather_hourly"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_margin="10dp"
+        tools:src="@drawable/icon_sunny_cloudy_rainy" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/weather_hourly_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        tools:text="12:00 AM" />
+
+</LinearLayout>
